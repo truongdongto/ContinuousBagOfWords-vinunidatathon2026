@@ -67,8 +67,15 @@ ContinuousBagOfWords-vinunidatathon2026/
 5. **`python run_blend_best.py`** — `build_v41_blend.py` rồi `build_v46_v41b_grid_blend.py`.
 
 **Hoặc gộp tất cả cho một lần chạy:**
+
 ```bash
-cd …/ContinuousBagOfWords-vinunidatathon2026/best_pipeline
+python pipeline.py
+```
+
+Các 
+
+```bash
+cd ContinuousBagOfWords-vinunidatathon2026/best_pipeline
 python pipeline.py --dry-run               # chỉ liệt kê hành vi
 python pipeline.py --step train --yes       # ví dụ: chỉ chain từ train
 python pipeline.py --yes                    # full chain, không hỏi (tự chịu trách nhiệm chạy nặng)
