@@ -1,0 +1,16 @@
+catboost_info/
+
+**/.ipython/
+.mpl/
+.home/
+
+__pycache__/
+.Python
+env/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
