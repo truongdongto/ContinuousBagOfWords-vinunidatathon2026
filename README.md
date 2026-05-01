@@ -19,6 +19,7 @@ pip install pandas numpy scipy scikit-learn lightgbm xgboost catboost
 **Trước khi thực thi pipeline:**
 
 ```
+ContinuousBagOfWords-vinunidatathon2026/
 ├── notebooks/                     # Chứa các notebook cho phần thi thứ 2 (EDA)
 ├── data/                          # CSV cuộc thi (orders, order_items, customers, products,
 │                                  # inventory, web_traffic, reviews, sample_submission, …)
@@ -31,6 +32,7 @@ pip install pandas numpy scipy scikit-learn lightgbm xgboost catboost
 **Sau khi thực thi pipeline:**
 
 ```
+ContinuousBagOfWords-vinunidatathon2026/
 ├── notebooks/
 ├── data/
 ├── best_pipeline/
@@ -66,7 +68,7 @@ pip install pandas numpy scipy scikit-learn lightgbm xgboost catboost
 
 **Hoặc gộp tất cả cho một lần chạy:**
 ```bash
-cd …/final-submisison/best_pipeline
+cd …/ContinuousBagOfWords-vinunidatathon2026/best_pipeline
 python pipeline.py --dry-run               # chỉ liệt kê hành vi
 python pipeline.py --step train --yes       # ví dụ: chỉ chain từ train
 python pipeline.py --yes                    # full chain, không hỏi (tự chịu trách nhiệm chạy nặng)
